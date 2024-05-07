@@ -6,7 +6,7 @@ import ru.Netology.javaqa.HW_CYCLES.services.Freelance;
 public class FreelanceTest {
 
     @ParameterizedTest
-    @CsvFileSource(files = "src\test\resources\freelance.csv")
+    @CsvFileSource(files = "src/test/resources/freelance.csv")
     public void YouCanRest(int income, int expenses, int threshold, int rest) {
         Freelance service = new Freelance();
         /*
@@ -15,7 +15,7 @@ public class FreelanceTest {
         int expenses = 3000;
         int threshold = 20_000;
         */
-        int actual = service.calculate(income, expenses, threshold);
+        int actual = service.calculate(income, expenses, threshold, rest);
         Assertions.assertEquals(rest, actual);
     }
 
