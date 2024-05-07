@@ -21,18 +21,12 @@ public class FreelanceTest {
 
 //    @Test
 //    public void YouCanRestMore() {
-//        Freelance service = new Freelance();
-//
+//        Freelance service = new Freelance();//
 //        int rest = 2;
 //        int income = 100_000;
 //        int expenses = 60_000;
-//        int threshold = 150_000;
-//
+//        int threshold = 150_000;//
 //        int actual = service.calculate(income, expenses, threshold);
 //        Assertions.assertEquals(rest, actual);
 //    }
 }
-
-
-
-
