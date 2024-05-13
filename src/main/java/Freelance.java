@@ -1,5 +1,3 @@
-package ru.Netology.javaqa.HW_CYCLES.services;
-
 public class Freelance {
 
     public int calculate(int income, int expenses, int threshold) {
